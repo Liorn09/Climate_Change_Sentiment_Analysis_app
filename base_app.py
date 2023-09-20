@@ -38,7 +38,7 @@ from streamlit_lottie import st_lottie
 from wordcloud import WordCloud
 
 #load required images
-image = Image.open(r'Moives-AI.jpg')
+image = Image.open(r'MoviesAI.jpg')
 news_image = Image.open(r'news_img.jpg')
 function_image = Image.open(r'function.png')
 logo = Image.open(r'logo.PNG')
