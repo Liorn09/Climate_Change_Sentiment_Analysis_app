@@ -1,6 +1,6 @@
 # Streamlit-based Web Application
-This web app has been used to deply a data science solution for predicting sentiments on climate change
-using people's tweets.
+This web app has been used to deploy a data science solution for predicting sentiments on climate change
+using tweet data.
 
 The detailed solutions are in the files present in this repository
 
