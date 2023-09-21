@@ -59,7 +59,7 @@ def load_lottieurl(url):
 data_lottie = load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_8gmx5ktv.json")
 info_lottie = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_HhOOsG.json")
 # Vectorizer
-news_vectorizer = open("resources/vect_pkl.pkl","rb")
+news_vectorizer = open("vect_pkl.pkl","rb")
 tweet_cv = joblib.load(news_vectorizer) # loading your vectorizer from the pkl file
 
 # Load your raw data
