@@ -175,7 +175,7 @@ def main():
 				vect_text = tweet_cv.transform([tweet_text]).toarray()
 				# Load your .pkl file with the model of your choice + make predictions
 				# Try loading in multiple models to give the user a choice
-				predictor = joblib.load(open(os.path.join("resources/lsvc_pkl.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("lsvc_pkl.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 
 				# When model has successfully run, will print prediction
@@ -197,7 +197,7 @@ def main():
 				vect_text = tweet_cv.transform([tweet_text]).toarray()
 				# Load your .pkl file with the model of your choice + make predictions
 				# Try loading in multiple models to give the user a choice
-				predictor = joblib.load(open(os.path.join("resources/svc_pkl.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("svc_pkl.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 
 				# When model has successfully run, will print prediction
@@ -218,7 +218,7 @@ def main():
 				vect_text = tweet_cv.transform([tweet_text]).toarray()
 				# Load your .pkl file with the model of your choice + make predictions
 				# Try loading in multiple models to give the user a choice
-				predictor = joblib.load(open(os.path.join("resources/rf_pkl.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("rf_pkl.pkl"),"rb"))
 				prediction = predictor.predict(vect_text)
 
 				# When model has successfully run, will print prediction
